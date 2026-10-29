@@ -1,0 +1,73 @@
+{
+  "title": "Supporting materials for: Decentralized Multi-Agent Reinforcement Learning with Bounded Off-Policy Guarantees for Edge Collaboration in Software-Defined Wireless Sensor Networks",
+  "creators": [
+    {
+      "name": "Tianhao Zhang"
+    },
+    {
+      "name": "Xin Li"
+    },
+    {
+      "name": "Lin Wang"
+    },
+    {
+      "name": "Meiyan Teng"
+    },
+    {
+      "name": "Youyou Lu"
+    },
+    {
+      "name": "Yanchao Zhao"
+    }
+  ],
+  "related_manuscript_title": "Decentralized Multi-Agent Reinforcement Learning with Bounded Off-Policy Guarantees for Edge Collaboration in Software-Defined Wireless Sensor Networks",
+  "resource_type": "Supporting-materials collection",
+  "prepared_on": "2026-10-28",
+  "version": "0.1-local-preparation",
+  "status": "Partial collection; not deposited by this preparation step",
+  "description": "Current figure artifacts, 12 reported simulation parameters, and experimental-environment documentation. Numerical simulation results and experimental implementation are not included.",
+  "language": [
+    "en",
+    "zh-CN"
+  ],
+  "keywords": [
+    "Edge computing",
+    "Software-defined networking",
+    "Multi-agent reinforcement learning",
+    "ECA-MARL",
+    "Supporting materials"
+  ],
+  "repository_name": null,
+  "repository_url": null,
+  "doi": null,
+  "publication_year": null,
+  "license": null,
+  "rights_status": "Author confirmation and licence selection required before public redistribution",
+  "coverage": {
+    "current_schematic_figures": [
+      "Fig1",
+      "Fig2",
+      "Fig3",
+      "Fig4"
+    ],
+    "result_plot_artifacts": [
+      "Fig5",
+      "Fig6",
+      "Fig7",
+      "Fig8",
+      "Fig9",
+      "Fig10",
+      "Fig11",
+      "Fig12",
+      "Fig13",
+      "Fig14"
+    ],
+    "reported_simulation_parameters": 12,
+    "raw_simulation_data_included": false,
+    "experimental_numerical_results_included": false,
+    "experiment_code_included": false,
+    "synthetic_or_digitized_results_created": false
+  },
+  "figure_provenance": "Author confirmed current Figures 1-4 were manually redrawn in Microsoft Visio; no generative-AI assistance in their figure content.",
+  "source_scope": "Only files available in the current manuscript directory; other-computer materials excluded at the author's request"
+}

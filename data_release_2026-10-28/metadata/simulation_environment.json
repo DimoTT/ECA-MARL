@@ -1,0 +1,70 @@
+{
+  "source": "Manuscript Sections 5.1 and 5.2.2; reported information, not measured by this collection step",
+  "software": [
+    {
+      "name": "EdgeCloudSim",
+      "version": null,
+      "role": "Edge-computing simulation; task-allocation module replaced with ECA-MARL"
+    },
+    {
+      "name": "NS3",
+      "version": null,
+      "role": "Simulation of SDN east-west global-view transmission"
+    },
+    {
+      "name": "TensorFlow",
+      "version": null,
+      "role": "Asynchronous Actor-Critic implementation"
+    },
+    {
+      "name": "Python",
+      "version": null,
+      "role": "Learning implementation language"
+    }
+  ],
+  "hardware": {
+    "processor_reported": "96-core AMD EPYC 9654",
+    "memory": null,
+    "operating_system": null
+  },
+  "baselines": [
+    "DRL-CCMCO",
+    "DTOSC"
+  ],
+  "proposed_method": "ECA-MARL",
+  "metrics": [
+    "Average Task Completion Time (ATCT)",
+    "Task transmission time",
+    "Task handover time",
+    "Task execution time",
+    "Task-transmission energy consumption",
+    "Task throughput"
+  ],
+  "reported_sweeps": [
+    {
+      "variable": "number of tasks",
+      "fixed_condition_verbatim": "We fix the computation amount of each task at 10MB",
+      "figures": [
+        "Fig5",
+        "Fig7",
+        "Fig9",
+        "Fig11"
+      ]
+    },
+    {
+      "variable": "computation amount of each task",
+      "fixed_condition_verbatim": "fix the number of tasks at 100",
+      "figures": [
+        "Fig6",
+        "Fig8",
+        "Fig10",
+        "Fig12"
+      ]
+    }
+  ],
+  "run_count": null,
+  "random_seeds": null,
+  "aggregation_procedure": null,
+  "uncertainty": null,
+  "note": "Original manuscript wording and parameter units are preserved; missing settings were not inferred."
+}

@@ -1,0 +1,13 @@
+parameter,reported_value,source,interpretation
+Number of edge servers,10,Table 1 (tab1),Verbatim; no inferred unit conversion
+Number of WSN nodes,50,Table 1 (tab1),Verbatim; no inferred unit conversion
+Transmission bandwidth,[100-300] Mbps,Table 1 (tab1),Verbatim; no inferred unit conversion
+Average task data size,50MB,Table 1 (tab1),Verbatim; no inferred unit conversion
+CPU cycles required for the task,[0.5-4] Gcycle/s,Table 1 (tab1),Verbatim; no inferred unit conversion
+Batch size,32MB,Table 1 (tab1),Verbatim; no inferred unit conversion
+Gradient clipping threshold,40,Table 1 (tab1),Verbatim; no inferred unit conversion
+Policy learning rate,0.95,Table 1 (tab1),Verbatim; no inferred unit conversion
+Value learning rate,0.85,Table 1 (tab1),Verbatim; no inferred unit conversion
+Attenuation level,0.95,Table 1 (tab1),Verbatim; no inferred unit conversion
+Hidden layer size,256,Table 1 (tab1),Verbatim; no inferred unit conversion
+Experience replay pool size,200GB,Table 1 (tab1),Verbatim; no inferred unit conversion

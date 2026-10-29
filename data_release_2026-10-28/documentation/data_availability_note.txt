@@ -1,0 +1,20 @@
+Data Availability - preparation status, not submission text
+
+The author intends to make the available materials public. No public repository
+URL or DOI has been provided yet. Do not describe this local directory as a
+published dataset or insert an invented dataset identifier in the manuscript.
+
+The current collection contains figure artifacts, reported simulation
+parameters, and experimental-environment documentation. It does not contain
+the numerical result tables underlying Figures 5-14, individual simulation
+runs, or the experiment implementation.
+
+After deposit, a statement about the deposited supporting materials can be
+drafted using the verified repository name and persistent link. That statement
+must not imply that all raw data, numerical results, or code have been released.
+A repository link alone does not change the scope of the deposited files.
+
+Figures 1-4: author-confirmed manual Microsoft Visio drawings. No generative-AI
+figure-content disclosure is required on the basis of the author's report.
+The separate manuscript-preparation AI statement concerns text-related
+assistance, not creation of these drawings.

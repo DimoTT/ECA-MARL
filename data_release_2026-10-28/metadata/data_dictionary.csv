@@ -1,0 +1,19 @@
+file,field,definition
+table1_simulation_parameters.csv,parameter,Parameter name as reported in Table 1
+table1_simulation_parameters.csv,reported_value,Value and any units as reported; not converted or corrected
+table1_simulation_parameters.csv,source,Location in the manuscript
+table1_simulation_parameters.csv,interpretation,Transcription and unit-handling policy
+figure_manifest.csv,figure,"Manuscript figure identifier, Fig1 through Fig14"
+figure_manifest.csv,kind,schematic or result_plot
+figure_manifest.csv,caption_latex,Exact caption content; LaTeX markup retained
+figure_manifest.csv,primary_file,Relative path to the manuscript input figure
+figure_manifest.csv,display_file,Relative path to its existing PDF display copy
+figure_manifest.csv,primary_sha256,SHA-256 of the unchanged manuscript input figure
+figure_manifest.csv,display_sha256,SHA-256 of the unchanged PDF display file
+figure_manifest.csv,provenance,Source and author-confirmed drawing method where known
+figure_manifest.csv,numerical_data_status,not_applicable_schematic or not_in_this_collection
+materials_not_included.csv,material,Material excluded from or unavailable to this collection
+materials_not_included.csv,status,Explicit scope/status reason; not a claim that the original data do not exist
+materials_not_included.csv,note,Explanation of the collection boundary
+all CSV files,blank fields,Not supplied or not applicable; never a measured zero
+all JSON files,null,Unspecified or unconfirmed; never an inferred value

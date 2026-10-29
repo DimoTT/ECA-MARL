@@ -1,0 +1,30 @@
+\subsection{Experimental Setup}\label{subsec5.1}
+
+This paper conducts a simulation of the edge computing environment using the EdgeCloudSim simulation tool\cite{ref34}, taking into account the distribution of computing and network resources. The experiment uses NS3 to simulate the global view transmission of the SDN east-west architecture; the generated global view information is encapsulated into a configuration file and read by the network module of EdgeCloudSim. The task allocation module in EdgeCloudSim has been replaced with the ECA-MARL algorithm proposed in this paper. This paper utilizes the TensorFlow library in Python to implement the asynchronous Actor-Critic architecture for multi-agent reinforcement learning. It conducts training on a multi-core CPU server equipped with a 96-core AMD EPYC™ 9654 processor and uses the SDN global view simulated by NS3 as the separate input for the architecture. The settings of the simulation parameters are shown in Table \ref{tab1}.
+
+\begin{table}
+\begin{center}
+\caption{Key Simulation Parameters}
+\label{tab1}
+\begin{tabular}{@{~~}llll@{}}
+\toprule
+Parameter & Value\\
+\midrule
+Number of edge servers & 10\\
+Number of WSN nodes & 50\\
+Transmission bandwidth & [100-300] Mbps\\
+Average task data size & 50MB\\
+CPU cycles required for the task & [0.5-4] Gcycle/s\\
+Batch size & 32MB\\
+Gradient clipping threshold & 40\\
+Policy learning rate & 0.95\\
+Value learning rate & 0.85\\
+Attenuation level & 0.95\\
+Hidden layer size & 256\\
+Experience replay pool size & 200GB\\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+In the ECA-MARL algorithm, device and link data are collected through a simulated SDN architecture as the data source for the algorithm. In the initial phase, EdgeCloudSim reads a global view file containing network state encapsulated by network simulation software, which includes the global view information corresponding to each SDN controller, and the global view information of a single controller is used as the input to the corresponding Actor-Critic architecture. Utilizing the current state and the task model as the input layer of the Actor-Critic architecture, and the action decision as the output layer, the action to be taken is saved as parameters, which are then executed by EdgeCloudSim to implement the corresponding edge computing offloading strategy. For the hidden layers, this chapter establishes a neural network composed of fully connected layers, with all non-output layers sharing this fully connected layer. In terms of the output layer, the Actor network outputs a set of action probabilities as a policy through a Softmax function, and the Critic network outputs a linear layer as the value function. Deep neural networks are applied to the simulation environment of edge computing to verify the efficiency of edge collaboration.

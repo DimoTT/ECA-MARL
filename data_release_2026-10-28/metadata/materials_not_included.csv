@@ -1,0 +1,8 @@
+material,status,note
+Numerical result tables for Fig5-Fig14,not_in_local_collection,Original x/y values for each algorithm and condition are not present in this collection.
+Individual simulation runs and training logs,not_in_local_collection,"No per-run measurements, seeds, or aggregation logs were collected."
+ECA-MARL and baseline experiment implementations,not_in_local_collection,Manuscript-editing and schematic-drawing scripts are not experiment code.
+NS3 / EdgeCloudSim input configurations and generated global views,not_in_local_collection,No experiment configuration files were found in the manuscript directory.
+Exact software versions and repeated-run settings,not_reported_in_available_source,Unknown fields are null in simulation_environment.json.
+Current editable Visio sources for Fig1-Fig4,version_correspondence_not_verified,Earlier local .vsdx files were excluded to avoid misidentifying old versions as current sources.
+Repository identifier and dataset licence,pending_author_deposit,No identifier or open licence was invented or assigned.
